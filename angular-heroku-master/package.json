@@ -2,7 +2,8 @@
   "name": "angular-heroku",
   "version": "0.0.0",
    "engines": {
-    "node": "12.16.3"
+     "node" : "~8.15.1",
+    "npm" : "~6.4.1"
   },
   "scripts": {
     "ng": "ng",
@@ -25,7 +26,9 @@
     "express": "^4.17.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.10.2",
+    "@angular/cli": "~9.0.1",
+    "@angular/compiler-cli": "~9.0.0",
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.900.1",
